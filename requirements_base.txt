@@ -1,0 +1,16 @@
+Django==1.11
+requests
+numpy>=1.10
+djangorestframework==3.8.2
+django-cors-middleware
+django-filter==1.1
+rest-pandas
+sqlalchemy
+coreapi
+pygments
+markdown
+pycurl==7.43.0.1 --install-option="--with-nss"
+#celery[sqs]==4.1.1
+django-celery-results
+#django-celery-beat
+scipy==1.1.0

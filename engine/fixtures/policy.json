@@ -1,0 +1,61 @@
+[
+  {
+    "model": "engine.policy",
+    "pk": 1,
+    "fields": {
+      "name": "uniform_random",
+      "policy_id": 1
+    }
+  },
+  {
+    "model": "engine.policy",
+    "pk": 2,
+    "fields": {
+      "name": "weighted_random",
+      "policy_id": 2
+    }
+  },
+
+  {
+    "model": "engine.policy",
+    "pk": 3,
+    "fields": {
+      "name": "thompson_sampling",
+      "policy_id": 3
+    }
+  },
+
+  {
+    "model": "engine.policy",
+    "pk": 5,
+    "fields": {
+      "name": "sample_without_replacement",
+      "policy_id": 5
+    }
+  },
+
+  {
+    "model": "engine.policy",
+    "pk": 6,
+    "fields": {
+      "name": "thompson_sampling_contextual",
+      "policy_id": 6
+    }
+  },
+    {
+    "model": "engine.policy",
+    "pk": 8,
+    "fields": {
+      "name": "uniform_random_time",
+      "policy_id": 99
+    }
+  },
+  {
+    "model": "engine.policy",
+    "pk": 9,
+    "fields": {
+      "name": "weighted_random_time",
+      "policy_id": 9
+    }
+  }
+]  
